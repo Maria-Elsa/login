@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    height: 90vh;
+    border: 5px solid #d9a2af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 20 px;
+    color:  #c06c80;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.greeting{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50 px; 
+    color:  #b97081;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.form{
+    width: 400px;
+    height: auto;
+    color: #c06c80;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.heading{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+input,.submit-btn{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(211, 88, 88, 0.3);
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+input:focus,
+.submit-btn{
+    color: #ffffff;
+}
+
+input:focus::placeholder{
+    color: #000000;
+}
+
+.submit-btn{
+    width: 10 px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 20 px auto;
+    background: rgba(211, 88, 88, 0.3);
+    
+
+}
+
+.link{
+    
+    text-align: center;
+    text-transform: capitalize;
+    color: #b97081;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link:hover{
+    color: #fff;
+}
